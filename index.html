@@ -15,7 +15,6 @@
             <ul class="nav-links">
                 <li><a href="#accueil">Accueil</a></li>
                 <li><a href="#profil">Profil</a></li>
-                <!-- FIX : dropdown avec class pour pouvoir le styler en CSS -->
                 <li class="nav-dropdown">
                     <a href="#epreuves">Épreuves</a>
                     <ul class="nav-submenu">
@@ -42,7 +41,7 @@
             </div>
         </section>
 
-        <!-- FIX : section BTS séparée du hero -->
+        <!-- BTS SIO -->
         <section id="bts-sio">
             <div class="container">
                 <p class="section-label">Présentation</p>
@@ -61,14 +60,12 @@
                         <p>Étudiante en 2ème année de BTS Services Informatiques aux Organisations, option SLAM (Solutions Logicielles et Applications Métiers), je suis formée au développement de solutions applicatives.</p>
                         <p>Ma formation m'a permis d'acquérir des compétences en programmation, en conception de bases de données, ainsi qu'en gestion de projets informatiques selon une démarche agile.</p>
                     </div>
-                    <!-- FIX : dimensions explicites sur l'image -->
                     <div class="about-picture">
                         <img src="photo.jpg" alt="Photo de profil de Karla Bui" width="200" height="200">
                     </div>
                 </div>
             </div>
 
-            <!-- FIX : Parcours scolaire = diplômes/formations, PAS les stages -->
             <div class="container">
                 <p class="section-label">Études</p>
                 <h2 class="section-title">Parcours scolaire</h2>
@@ -80,7 +77,7 @@
                         </div>
                         <div class="stage-body">
                             <div class="stage-company">BTS SIO – Option SLAM</div>
-                            <div class="stage-role">STUDI — A distance</div>
+                            <div class="stage-role">STUDI — À distance</div>
                             <p class="stage-desc">Formation aux solutions logicielles et applications métiers : développement web, bases de données, cybersécurité et gestion de projets informatiques.</p>
                             <ul class="stage-missions">
                                 <li>Développement d'applications web</li>
@@ -98,14 +95,13 @@
                         <div class="stage-body">
                             <div class="stage-company">Baccalauréat ES — mention Bien</div>
                             <div class="stage-role">Lycée Marc Chagall — Reims</div>
-                            <p class="stage-desc">Obtention du baccalauréat avec la spécialités Mathématiques approfondies et l'option Italien LV3.</p>
+                            <p class="stage-desc">Obtention du baccalauréat avec la spécialité Mathématiques approfondies et l'option Italien LV3.</p>
                         </div>
                     </div>
 
                 </div>
             </div>
 
-            <!-- Stages en entreprise (contenu distinct du parcours scolaire) -->
             <div class="container">
                 <p class="section-label">Expérience professionnelle</p>
                 <h2 class="section-title">Stages en entreprise</h2>
@@ -113,36 +109,33 @@
 
                     <div class="stage-card">
                         <div class="stage-date">
-                            <div class="stage-date-text">Jan. 2026<br>—<br>Fév. 2026<br><br>7 semaines</div>
+                            <div class="stage-date-text">16/03/26<br>—<br>10/05/26<br><br>2 mois</div>
                         </div>
                         <div class="stage-body">
-                            <div class="stage-company">[Nom de l'entreprise] — [Ville]</div>
-                            <div class="stage-role">Développeuse web – Stage 2ème année</div>
-                            <p class="stage-desc">Intégrée à l'équipe technique, j'ai participé au développement d'une API REST pour la refonte du système de réservations en ligne de l'entreprise.</p>
+                            <div class="stage-company">Société de Tir de Reims — Tinqueux</div>
+                            <div class="stage-role">Développeuse web</div>
+                            <p class="stage-desc">Refonte du site d'un club sportif</p>
                             <ul class="stage-missions">
-                                <li>Analyse des besoins avec le responsable technique</li>
-                                <li>Conception du MCD et des routes API (RESTful)</li>
-                                <li>Développement avec Laravel (controllers, models, migrations)</li>
-                                <li>Mise en place de l'authentification JWT</li>
-                                <li>Tests fonctionnels sur Postman et documentation Swagger</li>
+                                <li>Recueil des besoins</li>
+                                <li>Création de maquettes et diagrammes UML</li>
+                                <li>Animation de réunions avec le comité directeur</li>
+                                <li>Développement de la solution web avec les technologies retenues (HTML/CSS, JavaScript, PHP, MySQL)</li>
+                                <li>Tests d'intégration et d'acceptation</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="stage-card">
                         <div class="stage-date">
-                            <div class="stage-date-text">Mai 2025<br>—<br>Juin 2025<br><br>5 semaines</div>
+                            <div class="stage-date-text">23/02/26<br>—<br>08/03/26<br><br>2 semaines</div>
                         </div>
                         <div class="stage-body">
-                            <div class="stage-company">[Nom de la PME] — [Ville]</div>
-                            <div class="stage-role">Développeuse web – Stage 1ère année</div>
-                            <p class="stage-desc">Développement d'une application de gestion de stock interne pour une PME du secteur logistique, en remplacement d'un suivi manuel sur tableur.</p>
+                            <div class="stage-company">Physic Wellness Club — Delémont (Suisse)</div>
+                            <div class="stage-role">Développeuse web</div>
+                            <p class="stage-desc">Création du portfolio d'un coach sportif</p>
                             <ul class="stage-missions">
-                                <li>Recueil des besoins auprès des utilisateurs (magasiniers, comptable)</li>
-                                <li>Modélisation de la base de données (Merise – MCD/MLD)</li>
-                                <li>Développement PHP / MySQL de l'application CRUD</li>
-                                <li>Génération de rapports PDF avec FPDF</li>
-                                <li>Formation des utilisateurs et rédaction du manuel utilisateur</li>
+                                <li>Recueil des besoins et compréhension de l'activité professionnelle</li>
+                                <li>Développement d'un site responsive (HTML, Bootstrap, JavaScript)</li>
                             </ul>
                         </div>
                     </div>
@@ -155,15 +148,12 @@
                 <h2 class="section-title">Ce que je maîtrise</h2>
                 <div class="skills-grid">
                     <div class="skill-group">
-                        <div class="skill-group-title">Langages de programmation</div>
+                        <div class="skill-group-title">Langages et frameworks</div>
                         <span class="skill-tag">PHP</span>
                         <span class="skill-tag">Python</span>
                         <span class="skill-tag">JavaScript</span>
                         <span class="skill-tag">HTML5 / CSS3</span>
                         <span class="skill-tag">SQL</span>
-                    </div>
-                    <div class="skill-group">
-                        <div class="skill-group-title">Frameworks & bibliothèques</div>
                         <span class="skill-tag">Bootstrap</span>
                     </div>
                     <div class="skill-group">
@@ -177,20 +167,23 @@
                         <span class="skill-tag gray">Git / GitHub</span>
                         <span class="skill-tag gray">VS Code</span>
                         <span class="skill-tag gray">WAMP et MAMP</span>
-                        <span class="skill-tag gray">Linux</span>
+                        <span class="skill-tag gray">Linux (Debian, Ubuntu)</span>
+                        <span class="skill-tag gray">Windows</span>
+                        <span class="skill-tag gray">MacOs</span>
                     </div>
                     <div class="skill-group">
                         <div class="skill-group-title">Méthodes & conception</div>
                         <span class="skill-tag gray">UML (diagrammes)</span>
                         <span class="skill-tag gray">Méthode Agile / Scrum</span>
                         <span class="skill-tag gray">API REST</span>
+                        <span class="skill-tag gray">Figma</span>
                     </div>
                     <div class="skill-group">
                         <div class="skill-group-title">Systèmes & réseaux (SI)</div>
                         <span class="skill-tag gray">GLPI</span>
                         <span class="skill-tag gray">Virtualisation (VirtualBox, PT, GNS3)</span>
                         <span class="skill-tag gray">Active Directory (notions)</span>
-                        <span class="skill-tag gray">TCP/IP</span>
+                        <span class="skill-tag gray">Wireshark</span>
                     </div>
                 </div>
             </div>
@@ -201,32 +194,28 @@
             <div class="container">
                 <p class="section-label">Épreuves</p>
 
-                <!-- FIX : E5 et E6 en h3 (sous-titres de la section Épreuves) -->
                 <h3 class="section-title" id="e5">E5 – Support et mise à disposition de services informatiques</h3>
-                <a href="annexe-E5.PDF">Télécharger l'annexe X</a>
+                <a href="annexe-E5.PDF">Télécharger le tableau de synthèse</a>
                 <div class="projects-grid">
 
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="project-number">// R01</span>
-                            <span class="project-type-label">Stage 1A</span>
+                            <span class="project-type-label">Projet scolaire</span>
                         </div>
                         <div class="project-card-body">
-                            <h4 class="project-title">Gestion de stock</h4>
-                            <p class="project-context">Contexte : PME logistique, 12 employés</p>
-                            <p class="project-desc">Développement d'une application web interne permettant la gestion des entrées/sorties de stock, le suivi des fournisseurs et la génération de rapports PDF. Remplacement d'un tableau Excel non sécurisé.</p>
+                            <h4 class="project-title">Veille technologique</h4>
+                            <p class="project-context">Contexte : Comment l'invisible banking, fondé sur les API et le cloud, transforme-t-il la relation entre la banque et le client ?</p>
+                            <p class="project-desc">Document : <a href="veille-techno-BUI.pdf">Lire le rapport</a></p>
                             <div class="project-tags">
-                                <span class="project-tag">PHP 8</span>
-                                <span class="project-tag">MySQL</span>
-                                <span class="project-tag">Bootstrap 5</span>
-                                <span class="project-tag">FPDF</span>
+                                <span class="project-tag">API</span>
+                                <span class="project-tag">Cloud</span>
+                                <span class="project-tag">Fintech</span>
+                                <span class="project-tag">Invisible Banking</span>
                             </div>
-                            <p class="project-competences-title">Compétences</p>
+                            <p class="project-competences-title">Compétence</p>
                             <div class="project-comps">
-                                <span class="project-comp">B1.1 Recenser les besoins</span>
-                                <span class="project-comp">B1.3 Développer</span>
-                                <span class="project-comp">B2.2 Bases de données</span>
-                                <span class="project-comp">B3.1 Déploiement</span>
+                                <span class="project-comp">Organiser son développement professionnel</span>
                             </div>
                         </div>
                     </div>
@@ -237,29 +226,20 @@
                             <span class="project-type-label">Projet scolaire</span>
                         </div>
                         <div class="project-card-body">
-                            <h4 class="project-title">Application mobile de prise de notes</h4>
-                            <p class="project-context">Contexte : Cours développement mobile SLAM</p>
-                            <p class="project-desc">Application Android native permettant de créer, organiser et archiver des notes texte et vocales. Gestion locale des données via SQLite avec une interface simple et accessible.</p>
+                            <h4 class="project-title">LinkedIn</h4>
+                            <p class="project-context">Contexte : Mise à jour du compte LinkedIn</p>
+                            <p class="project-desc">Document : <a href="LinkedIn.pdf">Lire le rapport</a></p>
                             <div class="project-tags">
-                                <span class="project-tag">Java</span>
-                                <span class="project-tag">Android Studio</span>
-                                <span class="project-tag">SQLite</span>
-                                <span class="project-tag">Material Design</span>
+                                <span class="project-tag">Réseau professionnel</span>
+                                <span class="project-tag">E-réputation</span>
+                                <span class="project-tag">CV</span>
                             </div>
-                            <p class="project-competences-title">Compétences</p>
+                            <p class="project-competences-title">Compétence</p>
                             <div class="project-comps">
-                                <span class="project-comp">B1.2 Analyser</span>
-                                <span class="project-comp">B1.4 Tester</span>
-                                <span class="project-comp">B2.3 Correction</span>
+                                <span class="project-comp">Organiser son développement professionnel</span>
                             </div>
                         </div>
                     </div>
-
-                </div>
-
-                <h3 class="section-title" id="e6" style="margin-top: 3rem;">E6 – Solutions Logicielles et Applications Métiers</h3>
-                <a href="annexe-E6.pdf">Télécharger l'annexe X</a>
-                <div class="projects-grid">
 
                     <div class="project-card">
                         <div class="project-card-header">
@@ -267,21 +247,26 @@
                             <span class="project-type-label">Projet scolaire</span>
                         </div>
                         <div class="project-card-body">
-                            <h4 class="project-title">Site vitrine + back-office</h4>
-                            <p class="project-context">Contexte : Association sportive locale (bénévolat)</p>
-                            <p class="project-desc">Conception et développement d'un site vitrine responsive avec espace d'administration sécurisé. Gestion des actualités, des événements et des membres. Authentification avec rôles utilisateurs.</p>
+                            <h4 class="project-title">Arc Espoir</h4>
+                            <p class="project-context">Contexte : Conception et déploiement d'un site web responsive</p>
+                            <div class="project-desc">Documents :</div>
+                            <ul>
+                                <li><a href="arc-espoir.pdf">Lire le rapport</a></li>
+                                <li><a href="https://github.com/karlab-dev/arc-espoir">Accéder au repository</a></li>
+                                <li><a href="https://arc-espoir.netlify.app/">Accéder au site</a></li>
+                                <li><a href="https://www.figma.com/design/NXUGenoFlSUfImg4TnnBAE/Arc-Espoir?t=yLqxmmkLsaF4a96E-1">Consulter la maquette Figma</a></li>
+                            </ul>
                             <div class="project-tags">
-                                <span class="project-tag">Laravel 11</span>
-                                <span class="project-tag">Blade</span>
-                                <span class="project-tag">MySQL</span>
-                                <span class="project-tag">Git</span>
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">JS</span>
+                                <span class="project-tag">SCRUM</span>
+                                <span class="project-tag">Netlify</span>
                             </div>
                             <p class="project-competences-title">Compétences</p>
                             <div class="project-comps">
-                                <span class="project-comp">B1.1 Recenser</span>
-                                <span class="project-comp">B2.1 Réponse aux demandes</span>
-                                <span class="project-comp">B2.2 BDD</span>
-                                <span class="project-comp">B3.2 Présence en ligne</span>
+                                <span class="project-comp">Développer la présence en ligne de l'organisation</span>
+                                <span class="project-comp">Travailler en mode projet</span>
+                                <span class="project-comp">Mettre à disposition des utilisateurs un service informatique</span>
                             </div>
                         </div>
                     </div>
@@ -289,25 +274,273 @@
                     <div class="project-card">
                         <div class="project-card-header">
                             <span class="project-number">// R04</span>
-                            <span class="project-type-label">Stage 2A</span>
+                            <span class="project-type-label">Projet scolaire</span>
                         </div>
                         <div class="project-card-body">
-                            <h4 class="project-title">API REST – Réservations en ligne</h4>
-                            <p class="project-context">Contexte : Entreprise de services aux particuliers</p>
-                            <p class="project-desc">Développement d'une API RESTful permettant la gestion de réservations de prestations. Documentation Swagger, tests sous Postman, gestion des tokens JWT pour l'authentification.</p>
+                            <h4 class="project-title">BTS SIO</h4>
+                            <p class="project-context">Contexte : Réalisation d'un powerpoint sur le BTS SIO et ses débouchés</p>
+                            <p class="project-desc">Document : <a href="ppt-bts.pdf">Consulter le powerpoint</a></p>
                             <div class="project-tags">
-                                <span class="project-tag">Laravel</span>
-                                <span class="project-tag">JWT</span>
-                                <span class="project-tag">Postman</span>
-                                <span class="project-tag">Swagger</span>
+                                <span class="project-tag">Powerpoint</span>
+                            </div>
+                            <p class="project-competences-title">Compétence</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Organiser son développement professionnel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R05</span>
+                            <span class="project-type-label">Projet scolaire</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">To do list</h4>
+                            <p class="project-context">Contexte : Réalisation d'un système de to do list</p>
+                            <div class="project-desc">Documents :</div>
+                            <ul>
+                                <li><a href="todolist.pdf">Lire le rapport</a></li>
+                                <li><a href="https://github.com/karlab-dev/todolist-php">Accéder au repository</a></li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">PHP</span>
+                            </div>
+                            <p class="project-competences-title">Compétence</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Organiser son développement professionnel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R06</span>
+                            <span class="project-type-label">Projet scolaire</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">VM Debian</h4>
+                            <p class="project-context">Contexte : Installation d'une VM Debian</p>
+                            <p class="project-desc">Document : <a href="VMDebian.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">VMware Workstation Pro</span>
+                                <span class="project-tag">Linux Debian</span>
+                                <span class="project-tag">Virtualisation</span>
+                            </div>
+                            <p class="project-competences-title">Compétence</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Gérer le patrimoine informatique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R07</span>
+                            <span class="project-type-label">Projet scolaire</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">LAMP et GLPI</h4>
+                            <p class="project-context">Contexte : Configuration d'une stack LAMP et installation de GLPI</p>
+                            <p class="project-desc">Document : <a href="lamp-glpi.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">GLPI</span>
+                                <span class="project-tag">LAMP</span>
+                                <span class="project-tag">Debian</span>
+                                <span class="project-tag">Apache</span>
                                 <span class="project-tag">MySQL</span>
+                                <span class="project-tag">PHP</span>
+                            </div>
+                            <p class="project-competences-title">Compétence</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Gérer le patrimoine informatique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R08</span>
+                            <span class="project-type-label">Projet scolaire</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">GLPI</h4>
+                            <p class="project-context">Contexte : Création de catégories et suivi du cycle de traitement d'un ticket sur GLPI</p>
+                            <p class="project-desc">Document : <a href="ticketglpi.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">GLPI</span>
+                                <span class="project-tag">Helpdesk</span>
                             </div>
                             <p class="project-competences-title">Compétences</p>
                             <div class="project-comps">
-                                <span class="project-comp">B1.3 Développer</span>
-                                <span class="project-comp">B1.4 Tester / valider</span>
-                                <span class="project-comp">B2.2 BDD</span>
-                                <span class="project-comp">B3.1 Déploiement</span>
+                                <span class="project-comp">Gérer le patrimoine informatique</span>
+                                <span class="project-comp">Répondre aux incidents et aux demandes d'assistance et d'évolution</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R09</span>
+                            <span class="project-type-label">Projet scolaire</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Batterie MacBook</h4>
+                            <p class="project-context">Contexte : Réparation d'un MacBook Air 2020</p>
+                            <p class="project-desc">Document : <a href="batterie.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">Maintenance informatique</span>
+                                <span class="project-tag">Hardware</span>
+                                <span class="project-tag">MacBook Air</span>
+                                <span class="project-tag">Diagnostic matériel</span>
+                            </div>
+                            <p class="project-competences-title">Compétences</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Gérer le patrimoine informatique</span>
+                                <span class="project-comp">Répondre aux incidents et aux demandes d'assistance et d'évolution</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R10</span>
+                            <span class="project-type-label">Stage</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Portfolio d'un coach sportif suisse</h4>
+                            <p class="project-context">Contexte : salle de sport Physic Wellness Club</p>
+                            <p class="project-desc">Document : <a href="portfolio-Julien.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">Bootstrap</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                            <p class="project-competences-title">Compétences</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Développer la présence en ligne de l'organisation</span>
+                                <span class="project-comp">Travailler en mode projet</span>
+                                <span class="project-comp">Mettre à disposition des utilisateurs un service informatique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R11</span>
+                            <span class="project-type-label">Stage</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Refonte du site web de la STR</h4>
+                            <p class="project-context">Contexte : association sportive Société de Tir de Reims</p>
+                            <div class="project-desc">Documents :</div>
+                            <ul>
+                                <li><a href="rapport-str.pdf">Lire le rapport</a></li>
+                                <li><a href="tests-str.pdf">Lire le rapport des tests</a></li>
+                                <li><a href="hébergement-str.pdf">Lire le rapport de l'hébergement</a></li>
+                                <li><a href="bdd.png">Consulter le diagramme ERD</a></li>
+                                <li><a href="séquence.png">Consulter le diagramme de séquence</a></li>
+                                <li><a href="utilisation.png">Consulter le diagramme de cas d'utilisation</a></li>
+                                <li><a href="https://www.figma.com/design/5O20fMTkY3FfOABl2DncFs/STR?node-id=35-1072&t=00a6FlFHLgsmfMSk-1">Consulter la maquette Figma</a></li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">JS</span>
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">MySQL</span>
+                                <span class="project-tag">Git/GitHub</span>
+                            </div>
+                            <p class="project-competences-title">Compétences</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Développer la présence en ligne de l'organisation</span>
+                                <span class="project-comp">Travailler en mode projet</span>
+                                <span class="project-comp">Mettre à disposition des utilisateurs un service informatique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R12</span>
+                            <span class="project-type-label">Projet scolaire</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Portfolio personnel</h4>
+                            <p class="project-context">Contexte : Réalisation de mon portfolio et déploiement sur GitHub Pages</p>
+                            <p class="project-desc">Document : <a href="Portfolio-GitHubPage.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">GitHub Pages</span>
+                            </div>
+                            <p class="project-competences-title">Compétences</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Développer la présence en ligne de l'organisation</span>
+                                <span class="project-comp">Mettre à disposition des utilisateurs un service informatique</span>
+                                <span class="project-comp">Organiser son développement professionnel</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="section-title" id="e6" style="margin-top: 3rem;">E6 – Solutions Logicielles et Applications Métiers</h3>
+                <a href="annexe-E6.pdf">Télécharger les 2 fiches descriptives</a>
+                <div class="projects-grid">
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R10</span>
+                            <span class="project-type-label">Stage</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Portfolio d'un coach sportif suisse</h4>
+                            <p class="project-context">Contexte : salle de sport Physic Wellness Club</p>
+                            <p class="project-desc">Document : <a href="portfolio-Julien.pdf">Lire le rapport</a></p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">Bootstrap</span>
+                                <span class="project-tag">JS</span>
+                            </div>
+                            <p class="project-competences-title">Compétences</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Développer la présence en ligne de l'organisation</span>
+                                <span class="project-comp">Travailler en mode projet</span>
+                                <span class="project-comp">Mettre à disposition des utilisateurs un service informatique</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <span class="project-number">// R11</span>
+                            <span class="project-type-label">Stage</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h4 class="project-title">Refonte du site web de la STR</h4>
+                            <p class="project-context">Contexte : association sportive Société de Tir de Reims</p>
+                            <div class="project-desc">Documents :</div>
+                            <ul>
+                                <li><a href="rapport-str.pdf">Lire le rapport</a></li>
+                                <li><a href="tests-str.pdf">Lire le rapport des tests</a></li>
+                                <li><a href="hébergement-str.pdf">Lire le rapport de l'hébergement</a></li>
+                                <li><a href="bdd.png">Consulter le diagramme ERD</a></li>
+                                <li><a href="séquence.png">Consulter le diagramme de séquence</a></li>
+                                <li><a href="utilisation.png">Consulter le diagramme de cas d'utilisation</a></li>
+                                <li><a href="https://www.figma.com/design/5O20fMTkY3FfOABl2DncFs/STR?node-id=35-1072&t=00a6FlFHLgsmfMSk-1">Consulter la maquette Figma</a></li>
+                            </ul>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML/CSS</span>
+                                <span class="project-tag">JS</span>
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">MySQL</span>
+                                <span class="project-tag">Git/GitHub</span>
+                            </div>
+                            <p class="project-competences-title">Compétences</p>
+                            <div class="project-comps">
+                                <span class="project-comp">Développer la présence en ligne de l'organisation</span>
+                                <span class="project-comp">Travailler en mode projet</span>
+                                <span class="project-comp">Mettre à disposition des utilisateurs un service informatique</span>
                             </div>
                         </div>
                     </div>
@@ -336,14 +569,12 @@
                     <div class="contact-card">
                         <div>
                             <div class="contact-card-label">Email</div>
-                            <!-- FIX : email protégé contre les bots de spam -->
                             <div class="contact-card-value" id="contact-email"></div>
                         </div>
                     </div>
                     <div class="contact-card">
                         <div>
                             <div class="contact-card-label">Téléphone</div>
-                            <!-- FIX : téléphone protégé contre les bots -->
                             <div class="contact-card-value" id="contact-tel"></div>
                         </div>
                     </div>
@@ -367,15 +598,13 @@
             </div>
         </section>
 
-        <!-- FIX : footer avec le bon nom -->
         <footer>
             © 2026 – Karla Bui · BTS SIO SLAM · Portfolio étudiant
         </footer>
 
         <script>
-            // FIX : coordonnées reconstituées en JS pour limiter l'indexation par les bots
             document.getElementById('contact-email').textContent = 'karla.bui2001' + '@' + 'gmail.com';
-            document.getElementById('contact-tel').textContent = '06 02 23' + ' 92 95';
+            document.getElementById('contact-tel').textContent   = '06 02 23' + ' 92 95';
         </script>
     </body>
 </html>
